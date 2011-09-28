@@ -1,0 +1,3 @@
+[submodule "modules/perl-weburl"]
+	path = modules/perl-weburl
+	url = git://github.com/wakaba/perl-weburl.git
