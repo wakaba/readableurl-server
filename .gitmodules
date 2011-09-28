@@ -1,3 +1,6 @@
 [submodule "modules/perl-weburl"]
 	path = modules/perl-weburl
 	url = git://github.com/wakaba/perl-weburl.git
+[submodule "modules/charclass"]
+	path = modules/charclass
+	url = git://github.com/wakaba/perl-charclass.git
