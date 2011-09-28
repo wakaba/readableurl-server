@@ -99,7 +99,7 @@ my $app = sub {
         } else {
             $short_url = q{/u/} . $short_url;
         }
-        $body = url_to_canon_url 'http://' . $env->{HTTP_HOST} . $short_url, q<thismessage:/>;
+        $body = url_to_canon_url 'https://' . $env->{HTTP_HOST} . $short_url, q<thismessage:/>;
         return [200, ['Content-Type' => 'text/plain'], [encode 'utf-8', $body]];
     } elsif ($request_url =~ s{^/([uhs])/}{}) {
         my $type = $1;
